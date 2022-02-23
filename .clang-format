@@ -1,0 +1,8 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation and column with 120.
+BasedOnStyle: LLVM
+Language: Cpp
+ColumnLimit: 120
+IndentWidth: 4
+#pointer star positon
+PointerAlignment: Left
+
