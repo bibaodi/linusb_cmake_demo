@@ -12,9 +12,6 @@ configure_file (
     "${PROJECT_BINARY_DIR}/config.h"
 )
 include_directories(${LIBUSB_1_INCLUDE_DIRS})
-include_directories(
-    ${PROJECT_SOURCE_DIR}/hotplug
-)
 #SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 add_compile_options(-std=c++11 -fpermissive)
 add_executable(libusb-demo  ${PROJECT_SOURCE_DIR}/src/hotplug.cpp  ${PROJECT_SOURCE_DIR}/src/test.cpp)
