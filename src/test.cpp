@@ -1,9 +1,3 @@
-/*
- *
- * build by lishuwei
- * date:2021-07-22
- */
-
 #include "hotplug.h"
 
 int main() {
