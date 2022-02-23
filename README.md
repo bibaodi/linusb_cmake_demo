@@ -14,3 +14,8 @@ based on
 	it takes me 2 hours to make libusb in cmake.
 	ryanbinns's ttwatch give me final solution.
 ```
+
+# before commit
+```
+clang-format  --style=file -i ./src/*
+```
